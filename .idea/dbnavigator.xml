@@ -13,7 +13,7 @@
   </component>
   <component name="DBNavigator.Project.DatabaseConsoleManager">
     <connection id="63a8bcdf-3e52-4d86-95d2-ee366dcfa477">
-      <console name="Medunna" type="STANDARD" schema="medunna_db_v2" session="Main" />
+      <console name="Medunna" type="STANDARD" schema="medunna_db_v2" session="Main"><![CDATA[select * from room]]></console>
     </connection>
   </component>
   <component name="DBNavigator.Project.DatabaseEditorStateManager">
@@ -21,6 +21,9 @@
   </component>
   <component name="DBNavigator.Project.DatabaseFileManager">
     <open-files />
+  </component>
+  <component name="DBNavigator.Project.DatasetFilterManager">
+    <filter-actions connection-id="63a8bcdf-3e52-4d86-95d2-ee366dcfa477" dataset="public.room" active-filter-id="" />
   </component>
   <component name="DBNavigator.Project.ObjectQuickFilterManager">
     <last-used-operator value="EQUAL" />
@@ -510,5 +513,8 @@
         </visibility-settings>
       </environment>
     </general-settings>
+  </component>
+  <component name="DBNavigator.Project.StatementExecutionManager">
+    <execution-variables />
   </component>
 </project>
